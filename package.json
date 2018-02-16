@@ -1,0 +1,36 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "Microservices test Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+     "start": "node server.js"
+  },
+  "author": "Manoj",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "babel": "^6.23.0",
+    "babel-traverse": "^6.26.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.9.2",
+    "cookie-parser": "^1.4.3",
+    "express": "4.15.4",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9",
+    "nodemon": "1.11.0",
+    "underscore": "^1.8.3",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-parameters": "6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-traverse": "6.26.0"
+  }
+}

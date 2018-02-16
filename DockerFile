@@ -1,0 +1,17 @@
+FROM stefanscherer/node-windows:6.7.0-nano
+
+#D:/Project/Test
+RUN mkdir c:\app  
+
+
+WORKDIR app
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3001
+
+CMD ["npm", "start"]
